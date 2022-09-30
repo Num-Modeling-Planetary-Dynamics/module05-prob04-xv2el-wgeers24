@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import csv
-file=open('id000002-XV.csv')
-csvreader=csv.reader(file)
+with open('./id000002-XV.csv', 'r') as file:
+    csvreader= csv.reader(file)
 header=[]
 header=next(csvreader)
 writer.writerow(["t", "a", "e", "inclination", "lon_asc_node", "arg_peri", "true_anom"])
