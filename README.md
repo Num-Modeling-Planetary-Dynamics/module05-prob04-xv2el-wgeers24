@@ -6,3 +6,7 @@
 ## Problem 4. Cartesian coordinates to orbital elements
 
 ### Instructions for using the coordinate conversion code
+
+I could not figure out how to properly import and read my data.
+The program was supposed to run by importing each of the data files one by one, making sure to update the saved output file names.
+The output would be plots of a vs. t and I vs. t for each of the data files. 

@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import csv
-with open('./id000002-XV.csv', 'r') as file:
+with open('./data/id000002-XV.csv', 'r') as file:
     csvreader= csv.reader(file)
 header=[]
 header=next(csvreader)
