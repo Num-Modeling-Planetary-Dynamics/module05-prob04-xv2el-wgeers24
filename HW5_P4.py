@@ -10,3 +10,13 @@ a=((2/rMag)-(vMag**2)/u)**-1
 
 e=np.sqrt(1-(h**2/(u*a)))
 I=np.arccos()
+
+plt.plot(t,a)
+plt.xlabel('Time(Myr)')
+plt.ylabel('semi-major axis(a)')
+
+plt.plot(t,I)
+plt.xlabel('Time(Myr)')
+plt.ylabel('Inclination')
+
+
