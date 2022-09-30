@@ -25,10 +25,10 @@ def xv2el(mu,x,v):
     omega=np.arcsin(h[0]/(hMag*np.sin(I)))
 
     peri=np.arcsin(x[2]/(x*np.sin(I)))-f
-    f=np.arccos((1/e*)*((a*(1-e**2))/rMag)-1)
+    f=np.arccos((1/e)*((a*(1-e**2))/rMag)-1)
 
 
-    with open("../data/id000002-EL.csv", 'w') as f:
+with open("../data/id000002-EL.csv", 'w') as f:
 
     plt.plot(t,a)
     plt.xlabel('Time(Myr)')
